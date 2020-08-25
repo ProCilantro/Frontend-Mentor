@@ -1,0 +1,125 @@
+/* Colors
+
+Cyan: hsl(179, 62%, 43%)
+Lighter Cyan: hsl(180, 48%, 51%)
+Bright Yellow: hsl(71, 73%, 54%)
+Light Gray: hsl(204, 43%, 93%)
+Grayish Blue: hsl(218, 22%, 67%) */
+/* Elements */
+body {
+  color: hsl(204, 43%, 93%);
+  font-family: Karla, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 3% 0;
+}
+
+h2 {
+  color: #FFF;
+  font-size: 1.25em;
+  font-weight: 700;
+  margin: 3% 0;
+}
+
+p {
+  margin-bottom: 5%;
+}
+
+/* Layout Padding*/
+.join, .subscribe, .why {
+  padding: 5% 7%;
+}
+
+/* Join */
+.subtitle {
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+}
+
+.pitch {
+  color: hsl(218, 22%, 67%);
+}
+
+/* Subscribe */
+.subscribe {
+  background-color: hsl(179, 62%, 43%);
+}
+
+.money {
+  font-size: 2rem;
+}
+
+.period {
+  color: hsl(179, 62%, 65%);
+}
+
+.sign-up-btn {
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  border-radius: 7px;
+  color: #FFF;
+  font-family: Karla;
+  font-weight: 700;
+  font-size: 1.15rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+.sign-up-btn:hover {
+  background-color: hsl(71, 83%, 44%);
+  border: none;
+  border-radius: 7px;
+  color: #FFF;
+  font-family: Karla;
+  font-weight: 700;
+  font-size: 1.15rem;
+  padding: 1rem;
+  width: 100%;
+}
+
+/* Why */
+.why {
+  background-color: hsl(180, 48%, 51%);
+}
+
+/* Media Queries */
+@media (min-width:645px) {
+  .desktop-grid {
+    display: grid;
+  }
+
+  .subscribe, .why {
+    padding: 5% 14%;
+  }
+
+  .subscribe {
+    grid-column: 1 / 2;
+  }
+
+  .why {
+    grid-column: 2 / 3;
+  }
+}
+
+/* Feel free to remove these styles or customise in your own stylesheet */
+
+footer {
+
+}
+
+.attribution {
+  font-size: .75rem;
+  text-align: center;
+  color: hsl(218, 22%, 67%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
