@@ -74,14 +74,6 @@ p {
 
 .sign-up-btn:hover {
   background-color: hsl(71, 83%, 44%);
-  border: none;
-  border-radius: 7px;
-  color: #FFF;
-  font-family: Karla;
-  font-weight: 700;
-  font-size: 1.15rem;
-  padding: 1rem;
-  width: 100%;
 }
 
 /* Why */
@@ -110,10 +102,15 @@ p {
 
   .why {
     grid-column: 2 / 3;
+    border-radius: 0 0 7px 0;
+  }
+
+  .subscribe {
+    border-radius: 0 0 0 7px;
   }
 }
 
-/*Footer */
+/* Footer */
 .attribution {
   font-size: .75rem;
   text-align: center;
